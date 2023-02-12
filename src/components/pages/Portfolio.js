@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Work() {
+export default function Portfolio() {
   return (
     <article id="work">
       <h3>Work Experience</h3>

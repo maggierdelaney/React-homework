@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div class="container">
+      <h2>About Me</h2>
       <img id="section-img" src="/images/DC-head-shot.JPG" alt="picture of website creator"/>
       <p>
         Welcome to my portfolio, I go by Maggie! I grew up in Phoenix, Arizona where I studied public health and Spanish at the University of Arizona.
@@ -14,5 +14,5 @@ export default function About() {
         friends and family.
       </p>
     </div>
-  )
-};
+  );
+}

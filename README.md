@@ -4,7 +4,7 @@
 
 This assignment tasked me with creating a portfolio using React, following the below acceptance criteria.
 
-Link to deployed application: 
+Link to deployed application: https://maggierdelaney.github.io/React-homework/
 
 ## Acceptance Criteria
 

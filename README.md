@@ -74,6 +74,10 @@ Then you can navigate to the portfolio section which lists 6 different projects 
 
 ![projects](readme/projects.png)
 
+When you navigate to the contact section, you are presented with a form that accepts your name, email and a message.
+
+![contact](readme/contact.png)
+
 ## Credits
 
 Node.js

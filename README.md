@@ -4,6 +4,8 @@
 
 This assignment tasked me with creating a portfolio using React, following the below acceptance criteria.
 
+Link to deployed application: 
+
 ## Acceptance Criteria
 
 ```md

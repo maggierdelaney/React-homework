@@ -5,7 +5,7 @@ export default function Resume() {
     <div class="container">
       <h1>Resume</h1>
       <p>
-        Download here:
+        To download, click <a href="/images/Margaret_Delaney_Resume2023.pdf">here!</a>
       </p>
     </div>
   )

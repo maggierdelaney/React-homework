@@ -155,17 +155,32 @@ article div {
     background-color:rgb(242, 220, 244);
 }
 
-#horiseon-image {
+#spoonfed-reviews {
     max-height: 100%;
     max-width: 100%;
 }
 
-#prework-image {
+#inmyfeels-image {
     max-height: 100%;
     max-width: 100%;
 }
 
-#github-image {
+#tech-blog-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#note-taker-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#weather-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#password-image {
     max-height: 100%;
     max-width: 100%;
 }

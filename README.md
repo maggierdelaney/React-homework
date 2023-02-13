@@ -1,12 +1,8 @@
 # 20 React: React Portfolio
 
-## Your Task
+## Description
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
-
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-**Important**: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+This assignment tasked me with creating a portfolio using React, following the below acceptance criteria.
 
 ## Acceptance Criteria
 
@@ -38,46 +34,61 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Mock-Up
+## Table of Contents
 
-The following animation shows the web application's appearance and functionality:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+## Installation
 
-## Getting Started
+To build the page, I first installed "npx create-react-app client" to build the app through the command line, as well as "npm i bootstrap."
 
-You’ll use `create-react-app` to build your portfolio, which will include the following:
+This installed the following dependencies and scripts:
+```md
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+```
 
-* A single `Header` component that appears on multiple pages
+## Usage
 
-* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
+Upon opening the page, you will be presented with my "About Me" section
 
-* A single `Project` component that will be used multiple times in the Portfolio section
+![about me](readme/about.png)
 
-* A single `Footer` component that appears on multiple pages
+Next, you can navigate to the resume tab for a link to download my current resume
 
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
+![resume](readme/resume1.png)
 
-### Projects
+Then you can navigate to the portfolio section which lists 6 different projects that are currently deployed, as well as their github links and descriptions.
 
-For each project that is featured in your portfolio, include the following:
+![projects](readme/projects.png)
 
-* An image of the deployed application (either a short animated GIF or screenshot)
+## Credits
 
-* The title of the project
+Node.js
+React
+HTML
+CSS
 
-* A link to the deployed application
+## License
 
-* A link to the corresponding GitHub repository
+MIT License
 
-### Design
+Copyright (c) 2022 maggierdelaney
 
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* Use mobile-first design.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
-
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
-
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

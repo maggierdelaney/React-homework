@@ -43,13 +43,14 @@ p {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 75px;
     text-align: center;
 }
 
 nav {
     text-align: center;
     padding-bottom: 50px;
+
 }
 
 /*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
@@ -60,6 +61,9 @@ nav {
     justify-content: space-around;
     height: 90%;
     width: 90%;
+    background-color: rgb(197, 167, 200);
+    color: black;
+    text-decoration: none;
   }
 
   /*takes away the bullet points*/
@@ -88,15 +92,6 @@ section div {
     padding-top: 20px;
 }
 
-#about-me-p {
-    font-family: 'ZenKakuGothicAntique-Light', sans-serif;
-    line-height: 2;
-    height: 75%;
-    width: 65%;
-    padding-right: 30px;
-    text-align: left;
-}
-
 h3 {
     font-family: 'Aboreto-Regular', sans-serif;
     font-size: 50px;
@@ -106,7 +101,7 @@ h3 {
 
 h4 {
     font-family: 'Aboreto-Regular', sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
     background-color:rgb(242, 220, 244)
 }
@@ -201,6 +196,11 @@ footer {
     text-align: center;
     padding-right: 40px;
     padding-bottom: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 /*makes the footer into a responsive design by allowing it to stack vertically with a smaller screen using flex boxes*/

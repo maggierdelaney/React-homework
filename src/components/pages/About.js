@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div class="container">
       <h2>About Me</h2>
-      <img id="section-img" src="/images/DC-head-shot.JPG" alt="picture of website creator"/>
+      <img id="section-img" src="React-homework/images/DC-head-shot.JPG" alt="website creator"/>
       <p>
         Welcome to my portfolio, I go by Maggie! I grew up in Phoenix, Arizona where I studied public health and Spanish at the University of Arizona.
         I attended graduate school thereafter at Northern Arizona University and became a Doctor of Physical Therapy. I moved to Boston, Massachusetts
